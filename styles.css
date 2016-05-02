@@ -7,6 +7,16 @@ html {
   box-sizing: inherit;
 }
 
+a, a:link, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+
+  transition: all 0.2s ease;
+}
+
 body {
   font-size: 20px;
   font-weight: 300;
@@ -80,6 +90,13 @@ body > div.container {
 
 /* CONTACT */
 div.contact a {
+  color: #4A4A4A;
+  text-decoration: none;
+  /*transition: all 0.2s ease;*/
+}
+
+div.contact a:hover {
+  color: #4078c0;
   text-decoration: none;
 }
 
@@ -97,6 +114,8 @@ div.contact i.fa-stack-1x {
   font-size: 2.5em;
 }
 
+div.contact .fa-circle-thin {
+}
 
 /* SOURCE */
 div.source {
@@ -120,6 +139,10 @@ article > h4 {
   margin:0;
   position: absolute;
   text-align: center;
+}
+
+article > h4 > a:hover {
+  color: black;
 }
 
 article.container + article.container {
