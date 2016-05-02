@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Lora;
+  font-family: Lato, sans-serif;
 }
 
 *, *:before, *:after {
@@ -13,13 +13,12 @@ a, a:link, a:visited, a:hover, a:active {
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
-
   transition: all 0.2s ease;
 }
 
 body {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 300;
   color: #4A4A4A;
   line-height: 1.1;
   margin: 0;
