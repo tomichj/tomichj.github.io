@@ -77,6 +77,28 @@ body > div.container {
   margin-top: 120px;
 }
 
+
+/* CONTACT */
+div.contact a {
+  text-decoration: none;
+}
+
+div.contact .fa-stack {
+  width: 5em;
+  height: 5em;
+  line-height: 5em;
+}
+
+div.contact i.fa-stack-2x {
+  font-size: 5em;
+}
+
+div.contact i.fa-stack-1x {
+  font-size: 2.5em;
+}
+
+
+/* SOURCE */
 div.source {
   overflow: hidden;
   width:1015px;
@@ -90,13 +112,7 @@ article {
 
   border-bottom: 8px solid;
   position: relative;
-
-  -webkit-box-shadow: 0 8px 6px -6px black;
-   -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 8px 6px -6px black;
 }
-
-
 
 article > h4 {
   bottom:0;
