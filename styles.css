@@ -138,8 +138,8 @@ article {
 
 article > h4 {
   bottom:0;
-  left:36px;
   margin:0;
+  width: 100%;
   position: absolute;
   text-align: center;
 }
