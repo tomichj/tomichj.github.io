@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Nunito;
+  font-family: Lora;
 }
 
 *, *:before, *:after {
@@ -19,12 +19,17 @@ a, a:link, a:visited, a:hover, a:active {
 
 body {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   color: #4A4A4A;
   line-height: 1.1;
 }
 
+p {
+  line-height: 1.5;
+}
+
 h1, h2, h3, h4 {
+  font-family: Nunito;
   font-weight: 500;
 }
 
