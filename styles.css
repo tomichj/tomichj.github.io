@@ -124,6 +124,7 @@ div.source {
   overflow: hidden;
   width:1015px;
   margin: 0 auto 200px;
+  padding-bottom: 20px;
 }
 
 article {
@@ -132,6 +133,7 @@ article {
   width: 245px;
   border-bottom: 8px solid;
   position: relative;
+  box-shadow: 0 4px 4px -4px #444;
 }
 
 article > h4 {
