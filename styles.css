@@ -57,6 +57,7 @@ h4 {
 
 header {
   position: relative;
+  margin-bottom: 200px;
 }
 
 header div.hero {
@@ -118,17 +119,38 @@ div.contact a + a {
 /* twitter social button hack */
 .fa-twotter:before{content:"\f099"}
 
-
-/* SOURCE */
-div.source {
+section {
   overflow: hidden;
-  width:1015px;
-  margin: 0 auto 200px;
-  padding-bottom: 20px;
+  margin: 0 auto;
 }
 
-article {
+.source {
+  overflow: hidden;
+  margin: 0 auto 100px;
+  padding-bottom: 20px;
+  /*display: inline-block;*/
+
+  width: 605px;
+}
+
+
+.source > article {
   float:left;
+  margin: 5px;
+  margin-bottom: 100px;
+}
+
+article.authenticate,
+article.autocomplete {
+  margin-left:100px;
+}
+
+/*:after {
+    content:"\000A";
+    white-space: pre;
+}*/
+
+article {
   height: 390px;
   width: 245px;
   border-bottom: 8px solid;
@@ -145,13 +167,12 @@ article > h4 {
 }
 
 article > h4 > a:hover {
-  /*color: black;*/
   color: #4078c0;
 }
 
-article.container + article.container {
+/*article.container + article.container {
   margin-left: 140px;
-}
+}*/
 
 article > i {
   text-align: center;
@@ -196,15 +217,21 @@ article.sigpad > i {
   color: #00B061;
 }
 
-@media screen and (max-width: 1100px) {
-  div.source {
+article.autocomplete > i {
+  font-size: 112px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .source {
      width: inherit;
   }
-  article {
+  .source article {
     float: none;
+    margin-left: auto;
+    margin-right: auto;
   }
   article.container + article.container {
-    margin-top: 150px;
-    margin-left: inherit;
   }
 }
