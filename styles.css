@@ -101,7 +101,7 @@ section {
 
 /*######################### SOURCE ############################*/
 .source {
-  width: 605px;
+  width: 615px;
 }
 
 .source > article {
@@ -117,7 +117,7 @@ article.autocomplete {
 
 article {
   height: 390px;
-  width: 245px;
+  width: 250px;
   border-bottom: 8px solid;
   position: relative;
   box-shadow: 0 4px 4px -4px #444;
