@@ -2,18 +2,12 @@
 layout: default
 ---
 
-<header class="tc">
-  <p class="b mb0">
-    {{ page.author }}
-  </p>
-  <p class="i moon-gray mt0">
-    {{ page.date | date: "%B %-d, %Y" }}
-  </p>
-  
-  <div class="center w-50 ph2 bt b--light-gray">
-    
-  </div>
+{% if page.author %}
+<header class="tc pv3 pv4-ns">
+  <img src="/images/me.jpg" class="br-100 pa1 ba b--black-10 h3 w3" alt="avatar">
+  <h1 class="f5 f4-ns fw6 mid-gray mv0">{{ page.author }}</h1>
+  <h2 class="f6 light-silver fw2 ttu tracked mv0">{{ page.date | date: "%B %-d, %Y" }}</h2>
 </header>
+{% endif %}
 
 {{ content }}
-

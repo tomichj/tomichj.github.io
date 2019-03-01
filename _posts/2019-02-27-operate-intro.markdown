@@ -6,7 +6,7 @@ author: Justin Tomich
 categories: blog
 ---
 
-We use service objects to remove business logic from the controller and model, and provide a separate object for it. Service objects contain business logic. Clean up code duplication, fat models and bloated controllers. Let models and controllers focus on their primary responsibilities.
+Service objects contain business logic. We use service objects to remove business logic from the controller and model, and provide a separate object for it. Clean up code duplication, fat models and bloated controllers. Let models and controllers focus on their primary responsibilities.
 
 In Rails, service objects are usually invoked from a controller action. The service object should orchestrate all domain logic necessary to perform the application's function. The service object is usually meant to contain everything that happens in a controller action without all of the HTTP-related functions: parsing params, rendering views, or redirecting to another action. And even parsing params is arguably not appropriate for a controller.
 

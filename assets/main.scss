@@ -108,13 +108,13 @@ a.plain:hover {
   }
 }
 
-h2 {
-  margin-top: 5rem
-}
-
-h3 {
-  margin-top: 4rem
-}
+//h2 {
+//  margin-top: 5rem
+//}
+//
+//h3 {
+//  margin-top: 4rem
+//}
 
 .mt5-1 {
   margin-top: 5rem; 
@@ -168,9 +168,9 @@ blockquote p:last-child {
   margin-bottom: 0
 }
 
-.content img {
-  margin: 1.5rem 0
-}
+//.content img {
+//  margin: 1.5rem 0
+//}
 
 .hero {
   background-position: center center;
@@ -224,7 +224,47 @@ nav a:hover {
   background: none
 }
 
+#avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    background-image: url(/images/me.jpg);
+    
+    /* make a square container */
+    width: 64px;
+    height: 64px;
 
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+
+//.circle {
+//  line-height: 0;    /* remove line-height */
+//  display: inline-block;  /* circle wraps image */
+////  margin: 5px;
+//  border: 2px solid rgba(255,255,255,0.4);
+//  border-radius: 50%;  /* relative value */
+//  /*box-shadow: 0px 0px 5px rgba(0,0,0,0.4);*/
+//  transition: linear 0.25s;
+//  height: 64px;
+//  width: 64px;
+//}
+//.circle img {
+//  border-radius: 50%;
+//}
+//.circle:hover {
+//  transition: ease-out 0.2s;
+//  border: 2px solid rgba(255,255,255,0.8);
+//  -webkit-transition: ease-out 0.2s;
+//}
+//a.circle {
+//  color: transparent;
+//} /* IE fix: removes blue border */
+//
 
 /*######################### CONTACT ############################*/
 .contact a {

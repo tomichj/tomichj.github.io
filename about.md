@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<div class="w-100 tc">
-<img src="/images/me.jpg">
+<div class="pa4 tc">
+<img src="/images/me.jpg" width="" class="br-100 pa1 ba b--black-10 h4 w4">
 </div>
 
 ### Hi, I'm Justin Tomich.
