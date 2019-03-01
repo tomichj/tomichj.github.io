@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Sloth - A GUI for lsof"
+hero: /images/sloth.jpg
+date:   2019-02-24 19:17:52 -0800
+categories: blog
+---
+
+"Sloth is a Mac application that displays all open files and sockets in use by all running processes on your system. This makes it easy to inspect which apps are using which files and sockets."
+
+Sloth is a usable GUI for lsof.
+
+![sloth-ui]
+
+You can install with `brew cask install sloth`.
+
+Or download from the github page. [Sloth] is open source. Check it out!
+
+[sloth]: https://github.com/sveinbjornt/Sloth
+[sloth-ui]: /images/sloth-ui.png

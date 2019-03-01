@@ -1,0 +1,249 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "tachyons";
+@import "syntax-highlighting";
+
+// #647cff !default;
+
+//$brand-color:      #0151ba !default;
+//$brand-accent:     #7ef1f9 !default;
+
+$brand-color:  #589D49 !default;
+$brand-accent: #B5EF8A !default;
+
+.primary {
+  color: $brand-color;
+}
+
+.bg-primary {
+  background-color: $brand-color;
+}
+
+.invert {
+  background-color: $brand-color;
+  color: #fff
+}
+
+.invert a {
+  color: #fff;
+  border: 0;
+}
+
+.invert a:hover {
+  color: $brand-accent;
+}
+
+html,body {
+//  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, sans-serif
+//  font-family: Lato, 'Helvetica Neue', Arial, sans-serif;
+//  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 18px;
+
+  --x-height-multiplier: 0.375;
+  --baseline-multiplier: 0.17;
+//  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+//  font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+//  font-family: "avenir next", avenir, sans-serif;
+  font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: -.063em;
+  color: rgba(0,0,0,.75);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.aw {
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+::selection {
+  background-color: $brand-accent;
+  color: $brand-color;
+}
+
+h1, h2, h3, h4 {
+  font-family: Nunito;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+  border-bottom: 3px solid $brand-accent;
+  position: relative
+}
+
+a.link,
+a.link:visited {
+  border-bottom: 3px solid transparent;
+}
+
+a:hover {
+  color: darken($brand-color, 10%);
+  border-bottom-color: $brand-color;
+}
+
+
+a.plain {
+  border: none;
+  text-decoration: none;
+}
+a.plain:hover {
+  color: $brand-color;
+  border: none;
+}
+
+@media (min-width: 30em) {
+  h1.f-headline-ns {
+    font-size: 3rem
+  }
+}
+
+h2 {
+  margin-top: 5rem
+}
+
+h3 {
+  margin-top: 4rem
+}
+
+.mt5-1 {
+  margin-top: 5rem; 
+}
+
+.f7 {
+  font-size: .8rem
+}
+
+hr {
+  width: 25%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 2px;
+  border: 0;
+  background-color: $brand-color;
+}
+
+pre code {
+  background: none;
+  border: none
+}
+
+code {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 2px;
+  font-size: .75rem
+}
+
+blockquote {
+  border-left: 3px solid $brand-color;
+  margin: 0;
+  padding: 1rem 1.25rem;
+  font-size: 1.4rem;
+  color: $brand-color;
+}
+
+blockquote cite {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-size: .875rem;
+  font-style: normal
+}
+
+blockquote p:first-child {
+  margin-top: 0
+}
+
+blockquote p:last-child {
+  margin-bottom: 0
+}
+
+.content img {
+  margin: 1.5rem 0
+}
+
+.hero {
+  background-position: center center;
+  background-size: cover
+}
+
+.sidebar {
+  border-left: 2px solid $brand-accent;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 60em) {
+  .sidebar {
+    border-left: none;
+    border-top: 2px solid $brand-accent;
+    width:100%;
+  }
+}
+
+nav a:hover {
+  background-color: $brand-accent;
+  color: $brand-color !important
+}
+
+.balance-text {
+  text-wrap: balanced
+}
+
+.f-headline {
+  font-size: 4rem
+}
+
+.avoid {
+  font-size: 1rem;
+  background-color: #eee;
+  padding: 1rem
+}
+
+.highlight {
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  font-size: 15px;
+  text-shadow: none;
+  color: #111;
+  padding: .5rem;
+  white-space: pre-wrap;
+}
+
+.highlight pre {
+  margin: 0;
+  background: none
+}
+
+
+
+/*######################### CONTACT ############################*/
+.contact a {
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.contact i {
+  font-size: 96px;
+}
+
+.contact a + a {
+  margin-left: 20px;
+}
+
+/* twitter social button hack, avoid ad blockers */
+.fa-twotter:before{content:"\f099"}
