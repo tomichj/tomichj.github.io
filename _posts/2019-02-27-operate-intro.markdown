@@ -2,6 +2,7 @@
 layout: post
 title:  "Operate - service objects for Ruby on Rails"
 date:   2019-02-27 06:24:00 -0800
+author: Justin Tomich
 categories: blog
 ---
 

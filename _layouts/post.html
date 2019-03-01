@@ -2,5 +2,18 @@
 layout: default
 ---
 
+<header class="tc">
+  <p class="b mb0">
+    {{ page.author }}
+  </p>
+  <p class="i moon-gray mt0">
+    {{ page.date | date: "%B %-d, %Y" }}
+  </p>
+  
+  <div class="center w-50 ph2 bt b--light-gray">
+    
+  </div>
+</header>
+
 {{ content }}
 
