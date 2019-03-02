@@ -1,15 +1,15 @@
 <nav class="w-100 border-box shadow-1">
   <div class="dt w-100 mw8 center pv3 pr6-l pl6-l">
     <div class="dtc v-mid w-25 ph4">
-      <a class="db dtc plain tc tl-l mb2 mb0-l" href="/" title="tomich.org">
+      <a class="db dtc grow tc tl-l mb2 mb0-l" href="/" title="tomich.org">
         <img src="/images/t-with-circle.svg" height="40" class="dib v-mid">
       </a>
     </div>
   
     <div class="dtc v-mid w-75 tr">
-      <a class="link dim gray b f6 f5-l dib mr3 mr4-l" href="/" title="posts">posts</a>
-      <a class="link dim gray b f6 f5-l dib mr3 mr4-l" href="https://github.com/tomichj" title="open source">open source</a>
-      <a class="link dim gray b f6 f5-l dib mr3 mr4-l" href="/about" title="about">about</a>
+      <a class="grow gray b f6 f5-l dib mr3 mr4-l" href="/" title="posts">posts</a>
+      <a class="grow gray b f6 f5-l dib mr3 mr4-l" href="https://github.com/tomichj" title="open source">open source</a>
+      <a class="grow gray b f6 f5-l dib mr3 mr4-l" href="/about" title="about">about</a>
     </div>
   </div>
 </nav>
@@ -28,7 +28,9 @@
 {% else %}
 
 <div class="mt4">
-  <h1 class="center w-80 f-headline-ns f3 lh-title db ph4 pv2 bg-primary white">{{ page.title }}</h1>
+  <h1 class="center w-80 f-headline-ns f3 lh-title db ph4 pv2 primary bg-primary-subtle">
+    {{ page.title }}
+  </h1>
 </div>
 
 {% endif %}

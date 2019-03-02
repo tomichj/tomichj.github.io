@@ -5,13 +5,17 @@
 @import "tachyons";
 @import "syntax-highlighting";
 
-// #647cff !default;
+$brand-color:  #ff7e6d !default;
+$brand-color-suble:  #fff5f3 !default;
+$brand-accent: #27cba4 !default;
+$brand-secondary: #ffdb6d !default;
+$brand-warm: #543243 !default;
 
-//$brand-color:      #0151ba !default;
-//$brand-accent:     #7ef1f9 !default;
+$text:  rgba(0,0,0,.75);
 
-$brand-color:  #589D49 !default;
-$brand-accent: #B5EF8A !default;
+.warm {
+    color: $brand-warm;
+}
 
 .primary {
   color: $brand-color;
@@ -19,6 +23,10 @@ $brand-accent: #B5EF8A !default;
 
 .bg-primary {
   background-color: $brand-color;
+}
+
+.bg-primary-subtle {
+  background-color: $brand-color-suble;
 }
 
 .invert {
@@ -39,13 +47,14 @@ html,body {
 //  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', Arial, sans-serif
 //  font-family: Lato, 'Helvetica Neue', Arial, sans-serif;
 //  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+//  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+//  font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+//  font-family: "avenir next", avenir, sans-serif;
+
   font-size: 18px;
 
   --x-height-multiplier: 0.375;
   --baseline-multiplier: 0.17;
-//  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
-//  font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-//  font-family: "avenir next", avenir, sans-serif;
   font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   letter-spacing: 0;
   letter-spacing: .01rem;
@@ -53,7 +62,7 @@ html,body {
   font-style: normal;
   line-height: 1.58;
   letter-spacing: -.063em;
-  color: rgba(0,0,0,.75);
+  color: $text;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -67,54 +76,62 @@ html {
 }
 
 ::selection {
-  background-color: $brand-accent;
-  color: $brand-color;
+  background-color: #fbf1a9;
+  color: $text;
 }
 
 h1, h2, h3, h4 {
   font-family: Nunito;
 }
 
+h2, h3, h4 {
+  color: #301d28;
+}
+
 a {
-  color: $brand-color;
+  color: inherit;
   text-decoration: none;
-  border-bottom: 3px solid $brand-accent;
-  position: relative
+  position: relative;
+  transition: color .2s, transform .2s;
+  transform-origin: center center;
 }
 
-a.link,
-a.link:visited {
-  border-bottom: 3px solid transparent;
+.secondary-hover:hover, 
+.secondary-hover:focus {
+    color: $brand-accent;
 }
 
-a:hover {
-  color: darken($brand-color, 10%);
-  border-bottom-color: $brand-color;
+.link, 
+.content-entry p a {
+    transition: background-position .3s linear, box-shadow .15s linear 0s;
+    background-image: linear-gradient(to right, $brand-secondary, $brand-secondary, $brand-accent);
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position: 0 1em;
+    cursor: pointer;
 }
 
+.link:hover, 
+.content-entry p a:hover {
+    background-image: linear-gradient(to right, $brand-secondary, $brand-color, $brand-accent);
+    background-position: 100% 1em;
+}
 
-a.plain {
-  border: none;
-  text-decoration: none;
+.grow:hover, 
+.grow:focus {
+    transform: scale3d(1.125, 1.125, 1.125);
 }
-a.plain:hover {
-  color: $brand-color;
-  border: none;
+
+a:active, a:hover, time:active, time:hover {
+    outline: 0;
 }
+
 
 @media (min-width: 30em) {
   h1.f-headline-ns {
     font-size: 3rem
   }
 }
-
-//h2 {
-//  margin-top: 5rem
-//}
-//
-//h3 {
-//  margin-top: 4rem
-//}
 
 .mt5-1 {
   margin-top: 5rem; 
@@ -178,29 +195,29 @@ blockquote p:last-child {
 }
 
 .sidebar {
-  border-left: 2px solid $brand-accent;
+  border-left: 2px dashed #eee;
   font-size: 16px;
 }
 
 @media screen and (max-width: 60em) {
   .sidebar {
     border-left: none;
-    border-top: 2px solid $brand-accent;
+    border-top: 2px solid #eee;
     width:100%;
   }
 }
 
-nav a:hover {
-  background-color: $brand-accent;
-  color: $brand-color !important
-}
+//nav a:hover {
+//  background-color: $brand-accent;
+//  color: $brand-color !important
+//}
 
 .balance-text {
-  text-wrap: balanced
+  text-wrap: balanced;
 }
 
 .f-headline {
-  font-size: 4rem
+  font-size: 4rem;
 }
 
 .avoid {
@@ -222,67 +239,6 @@ nav a:hover {
 .highlight pre {
   margin: 0;
   background: none
-}
-
-#avatar {
-    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
-    background-image: url(/images/me.jpg);
-    
-    /* make a square container */
-    width: 64px;
-    height: 64px;
-
-    /* fill the container, preserving aspect ratio, and cropping to fit */
-    background-size: cover;
-
-    /* center the image vertically and horizontally */
-    background-position: top center;
-
-    /* round the edges to a circle with border radius 1/2 container size */
-    border-radius: 50%;
-}
-
-//.circle {
-//  line-height: 0;    /* remove line-height */
-//  display: inline-block;  /* circle wraps image */
-////  margin: 5px;
-//  border: 2px solid rgba(255,255,255,0.4);
-//  border-radius: 50%;  /* relative value */
-//  /*box-shadow: 0px 0px 5px rgba(0,0,0,0.4);*/
-//  transition: linear 0.25s;
-//  height: 64px;
-//  width: 64px;
-//}
-//.circle img {
-//  border-radius: 50%;
-//}
-//.circle:hover {
-//  transition: ease-out 0.2s;
-//  border: 2px solid rgba(255,255,255,0.8);
-//  -webkit-transition: ease-out 0.2s;
-//}
-//a.circle {
-//  color: transparent;
-//} /* IE fix: removes blue border */
-//
-
-/*######################### CONTACT ############################*/
-.contact a {
-  color: #4A4A4A;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  color: #4078c0;
-  text-decoration: none;
-}
-
-.contact i {
-  font-size: 96px;
-}
-
-.contact a + a {
-  margin-left: 20px;
 }
 
 /* twitter social button hack, avoid ad blockers */

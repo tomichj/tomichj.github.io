@@ -10,7 +10,7 @@ Service objects contain business logic. We use service objects to remove busines
 
 In Rails, service objects are usually invoked from a controller action. The service object should orchestrate all domain logic necessary to perform the application's function. The service object is usually meant to contain everything that happens in a controller action without all of the HTTP-related functions: parsing params, rendering views, or redirecting to another action. And even parsing params is arguably not appropriate for a controller.
 
-### The [Operate] Gem
+### The Operate Gem
 
 The [operate] gem provides a framework for writing service objects. Operate focuses on making interactions with a service object easy and readable, eliminating conditionals where possible when interacting with a service object. An operate-based service class broadcasts events, and the client (your contorller) supplies code blocks that subscribe to those events.
 

@@ -8,9 +8,9 @@ permalink: /about/
 <img src="/images/me.jpg" width="" class="br-100 pa1 ba b--black-10 h4 w4">
 </div>
 
-### Hi, I'm Justin Tomich.
+### Hello! I'm Justin Tomich.
 
-I'm a web developer at a Fortune 50 company, and co-founder of a startup: [engage-cpa.com].
+I'm a web developer at a Fortune 50 company, and co-founder of a startup: [engage-cpa.com]. I design and build websites. This site is new, but I'm hoping to cover a mixture of software and infrastructure that will allow you to build beautiful, maintainable sites.
 
 You can find me on [twitter].
 

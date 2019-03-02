@@ -18,7 +18,7 @@ hero: /images/front_hero.jpg
       <li class="mb4-l mb3">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="ttu f7 b mr2 tracked moon-gray db-l dn">{{ post.date | date: date_format }}</span>
-        <a class="f4" href="{{ post.url | relative_url }}">
+        <a class="fw5 f4 primary secondary-hover" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
         {%- if site.show_excerpts -%}
