@@ -101,11 +101,11 @@ Let's put our padding example classes to use. Here's a simple h1:
 
 This applies `2rem` padding for at 60em and wider viewports, `1rem` for 30em to 60em widths, `.5rem` of padding for everything smaller.
 
-This technique has some real benefits. No more stumbling over hand-rolled CSS classes that might be out of alignment for a certain media query. If padding, or a font size, or a margin needs to be smaller or larger at a breakpoint, you just add a tachyons class. The downside: you use a lot of css classes in HTML elements. But you can instantly see what's happening with an element, and you can set up a responsive UI almost instantly.
+This technique has some real benefits. No more stumbling over hand-rolled CSS classes that might be out of alignment for a certain media query. If padding, or a font size, or a margin needs to be smaller or larger at a breakpoint, you just add a tachyons class. The downside: you use a lot of css classes in HTML elements. But you can easily see what's happening with an element, and you can set up a responsive UI very quickly.
 
 ### Reuse the technique
 
-Even in projects that are not tachyon-based, you can still reuse the pattern. You can quickly factor all of the most repetitive parts of your CSS with this technique: margins, padding, font sizes. It's a great pattern, and one I hope to use more in the future.
+Even in projects that are not tachyon-based, you can still reuse the pattern. You can quickly factor all of the most repetitive parts of your CSS with this technique: margins, padding, font sizes, border radius, etc. It's a great pattern, and one I hope to use more in the future.
 
 
 [https://tachyons.io/](https://tachyons.io/)
