@@ -28,8 +28,8 @@ Typically you'll change your margins, padding, and font-sizes repeatedly for dif
 
 Tachyons does things differently. Tachyons:
 - defines classes for an individual or small sets of properties ("padding", "padding-left", etc) where possible
-- uses very concise names, e.g. "pl" for padding-left, "pr" for padding right,  "pa" for padding (all), etc
-- defines multiple variants with increasing amounts, e.g. pa0, pa1, pa2
+- uses very concise names, especially for often-repeated classes (margins, padding, etc)
+- properties with many variations (padding, margins) get an integer added to the name
 - __defines classes identically__ for each breakpoint
 
 Tachyons base classes are __mobile by default__, and adds 3 additional breakpoints. Classes in a breakpoint have an abbreviation appended to their name:
@@ -39,11 +39,18 @@ Tachyons base classes are __mobile by default__, and adds 3 additional breakpoin
 
 So for any given class, there will be a default class, and also `-ns`, `-m,` and `-l` variations of the class for different screen sizes. 
 
-__Important__: The classes and  properties will be defined with __identical sizes__ for each set breakpoint.
+Put all those rules together, and you end up with classes like:
+- `pa4-l` padding all, 4th variant, for the "large" breakpoint
+- `mb2-ns` margin botton, 2nd variant, for the "not small" breakpoint
+- `br4` border radius, 4th variant, no breakpoint so it applies to all sizes unless overridden
+
+Take a quick glance at the [tachyons css] and you'll see all of these classes in their full glory.
 
 #### An example: padding
 
-Here's a (very) small sampling of tachyon's padding rules:
+Here's a (very) small sampling of tachyon's "padding all" classes.
+
+Reminder: The classes and  properties will be defined with __identical sizes__ for each set breakpoint.
 
 ```css
 .pa0 { padding: 0; }
@@ -82,8 +89,7 @@ And the same rules for the -ns, -m, and -l breakpoints:
 }
 ```
 
-To repeat: classes define the same property and value for each breakpoint. The class names have the breakpoint abbreviation appended but are otherwise identical.
-
+The class names have the breakpoint abbreviation appended but are otherwise identical. This lets you apply the padding you want at each breakpoint.
 
 #### Applying padding for instant responsiveness
 
@@ -105,3 +111,4 @@ Even in projects that are not tachyon-based, you can still reuse the pattern. Yo
 [https://tachyons.io/](https://tachyons.io/)
 
 [tachyons.io]: https://tachyons.io/
+[tachyons css]: https://github.com/tachyons-css/tachyons/blob/master/css/tachyons.css
