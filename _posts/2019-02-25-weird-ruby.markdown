@@ -2,7 +2,6 @@
 layout: post
 title:  "Weird Ruby - CultureHQ Engineering"
 date:   2019-02-25 16:24:00 -0800
-hero: /images/Ruby-Language-1024x576.png
 categories: blog
 ---
 

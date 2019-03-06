@@ -2,7 +2,6 @@
 layout: post
 title:  "Preload, eager load, includes and joins in Ruby on Rails"
 date:   2019-02-25 16:44:00 -0800
-hero: /images/hamlet_join.png
 categories: blog
 ---
 
