@@ -42,7 +42,7 @@ So for any given class, there will be a default class, and also `-ns`, `-m,` and
 Put all those rules together, and you end up with classes like:
 - `pa4-l` padding all, 4th variant, for the "large" breakpoint
 - `mb2-ns` margin botton, 2nd variant, for the "not small" breakpoint
-- `br4` border radius, 4th variant, no breakpoint so it applies to all sizes unless overridden
+- `br4` border radius, 4th variant, no breakpoint so it's applied in all viewport sizes
 
 Take a quick glance at the [tachyons css] and you'll see all of these classes in their full glory.
 
