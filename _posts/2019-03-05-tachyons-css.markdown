@@ -99,7 +99,7 @@ Let's put our padding example classes to use. Here's a simple h1:
 <h1 class="pa4-l pa3-m pa2">Hello!</h1>
 ```
 
-This applies `2rem` padding for at 60em and wider viewports, `1rem` for 30em to 60em widths, `.5rem` of padding for everything smaller.
+This applies `2rem` padding for 60em and wider viewports, `1rem` for 30em to 60em widths, `.5rem` of padding for everything smaller.
 
 This technique has some real benefits. No more stumbling over hand-rolled CSS classes that might be out of alignment for a certain media query. If padding, or a font size, or a margin needs to be smaller or larger at a breakpoint, you just add a tachyons class. The downside: you use a lot of css classes in HTML elements. But you can easily see what's happening with an element, and you can set up a responsive UI very quickly.
 
