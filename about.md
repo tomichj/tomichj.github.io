@@ -14,7 +14,7 @@ I'm a web developer at a Fortune 50 company, and co-founder of a startup: [engag
 
 You can find me on [twitter].
 
-Check out my current open-source produtcs at on [github]. Most of my open source packages are lessons and components extracted from [engage-cpa.com].
+Check out my current open-source produtcs on [github]. Most of my open source packages are lessons and components extracted from [engage-cpa.com].
 
 [engage-cpa.com]: https://www.engage-cpa.com
 [twitter]: https://twitter.com/JustinTomich

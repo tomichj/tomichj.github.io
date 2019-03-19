@@ -26,7 +26,7 @@ hero: /images/front_hero.jpg
         {%- endif -%}
       </li>
 
-      {% if this_year != next_year %}
+      {% if this_year != next_year and next_year != "" %}
       <h3 id="{{ next_year }}-ref">{{next_year}}</h3>
       {% endif %}
     {% endfor %}
