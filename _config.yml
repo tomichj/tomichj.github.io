@@ -34,7 +34,7 @@ google_analytics: UA-135171864-1
 
 collections:
   projects:
-    output: true
+    output: false
 
 
 # Exclude from processing.

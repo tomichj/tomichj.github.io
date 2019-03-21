@@ -3,23 +3,24 @@ layout: minimal
 title: Open Source
 ---
 
-<div class="pa0">
-  <ul class="list pa0 cf">
-
-    {% for project in site.projects %}
-      
-      <article class="mw5 fl bg-white br3 pa3 pa4-ns mv3 mh1 ba b--black-10">
+<section class="pa0 center cf border-box tc mw7">
+  {% for entry in site.projects %}
+    
+    <article class="w-100 w-50-m w-33-l fl bg-white">
+      <div class="br3 pa3 pa4-ns mv3 mh1 ba b--black-10">
         <div class="tc">
-          <img src="{{ project.img-src }}" class="br-100 h3 w3 dib" title="Photo of a kitty staring at you">
-          <h1 class="f4">{{ project.title }}</h1>
-          <hr class="mw3 bb bw1 b--black-10">
+          <img src="{{ entry.img }}" class="br-100 h3 w3 dib" title="{{ entry.title }}">
+          <h1 class="f4">{{ entry.title }}</h1>
+          <hr class="w3 bb bw1 b--black-10 mv3">
         </div>
-        <p class="lh-copy measure center f6 black-70">
-          {{ project.content }}
+        <p class="lh-copy measure center f6 black-70 h3">
+        {{ entry.description }}
         </p>
-      </article>
-      
-    {% endfor %}
-
-  </ul>
-</div>
+        <a href="{{ entry.github }}" class="tc dib w-80">
+          <p class="lh-copy strong ttu f5 invert tc">Github Repo</p>
+        </a>
+      </div>
+    </article>
+    
+  {% endfor %}
+</section>
