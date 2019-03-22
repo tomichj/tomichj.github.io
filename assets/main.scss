@@ -13,6 +13,20 @@ $brand-warm: #543243 !default;
 
 $text:  rgba(0,0,0,.75);
 
+
+
+.circle-icon {
+    background: #ffc0c0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5rem;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+
 .warm {
     color: $brand-warm;
 }
@@ -140,6 +154,8 @@ a:active, a:hover, time:active, time:hover {
 .f7 {
   font-size: .8rem
 }
+
+.h6 { height: 20rem; }
 
 hr {
   width: 25%;
