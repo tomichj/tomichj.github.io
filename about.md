@@ -10,7 +10,7 @@ permalink: /about/
 
 ### Hello! I'm Justin Tomich.
 
-I'm a web developer at a Fortune 50 company, and co-founder of a startup: [engage-cpa.com]. I design and build web applications. This site is new, but I'm hoping to cover a mixture of software and infrastructure that will allow you to build beautiful, maintainable web-based applications.
+I'm a web developer at a Fortune 50 company, and co-founder of a startup: [engage-cpa.com]. I design and build web applications, and iOS apps.
 
 You can find me on [twitter].
 
