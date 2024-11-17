@@ -4,7 +4,7 @@ title: Deep Cinema Terms of Use
 permalink: /deepcinema-terms
 ---
 
-__Last updated 2024-10-21__
+*Last updated 2024-10-21*
 
 Welcome to Deep Cinema ("the App"). These Terms of Use ("Terms") govern your use of the App. By downloading, accessing, or using the App, you agree to comply with and be bound by these Terms. If you do not agree to these Terms, you must not use the App.
 
