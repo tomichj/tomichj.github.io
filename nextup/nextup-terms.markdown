@@ -5,7 +5,7 @@ permalink: /nextup-terms
 ---
 
 
-# Terms of Service
+# NextUp Terms of Service
 
 **Last updated: July 18, 2026**
 

@@ -4,7 +4,7 @@ title: NextUp Privacy Policy
 permalink: /nextup-privacy
 ---
 
-# Privacy Policy
+# NextUp Privacy Policy
 
 **Last updated: July 18, 2026**
 
