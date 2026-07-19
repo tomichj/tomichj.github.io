@@ -33,7 +33,7 @@ NextUp is designed to work entirely on your device:
 - Contacts access, if granted, is used only to suggest locations while editing an event and is not stored or transmitted by the App.
 - We do not require you to create an account, and we do not collect analytics, usage data, or personal information about you.
 
-For more detail, see our [Privacy Policy](nextup-privacy.md).
+For more detail, see our [Privacy Policy](nextup-privacy).
 
 ## 5. Acceptable Use
 

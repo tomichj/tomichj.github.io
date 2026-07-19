@@ -64,4 +64,4 @@ NextUpMenuBarCalendar@gmail.com
 
 ---
 
-*See also our [Terms of Service](nextup-terms.md).*
+*See also our [Terms of Service](nextup-terms).*
