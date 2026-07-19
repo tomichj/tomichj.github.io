@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: NextUp Terms of Use
 permalink: /nextup-terms
 ---
