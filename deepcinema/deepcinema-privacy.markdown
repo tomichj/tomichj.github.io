@@ -20,4 +20,4 @@ Deep Cinema may change its Privacy Policy, at Deep Cinema's sole discretion. You
 
 You hereby indemnify us and undertake to keep us indemnified against any losses, damages, costs, liabilities and expenses (including, without limitation, legal expenses and any amounts paid by us to a third party in settlement of a claim or dispute on the advice of our legal advisers) incurred or suffered by us arising out of any breach by you of any provision of these terms of use, or arising out of any claim that you have breached any provision of these terms of use.
 
-Copyright © 2023-2024 Justin Tomich
+Copyright © 2022-2024 Justin Tomich
