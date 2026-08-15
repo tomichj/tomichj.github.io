@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — NextUp</title>
+<meta name="description" content="Help with NextUp for macOS: permissions, reminders, purchases, and how to get in touch.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/icon.svg" alt="">
+      NextUp
+    </a>
+    <nav class="nav-links">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main class="doc">
+  <a class="back-link" href="index.html">&#8592; NextUp</a>
+
+  <h1>Support</h1>
+  <p class="updated">NextUp 0.8 &middot; Requires macOS 26 or later</p>
+
+  <p>
+    Questions, bug reports, and feature requests all go to the same place, and they're all welcome.
+  </p>
+
+  <div class="contact-card">
+    <p class="email"><a href="mailto:NextUpMenuBarCalendar@gmail.com">NextUpMenuBarCalendar@gmail.com</a></p>
+    <p>
+      To save a round trip, please include your macOS version, your NextUp version (Settings &rarr;
+      About), and what you were doing when the problem happened.
+    </p>
+  </div>
+
+  <h2>Getting started</h2>
+  <p>
+    NextUp has no window of its own — it lives in the menu bar. Click its icon to open the popover;
+    right-click it for <strong>Settings…</strong> and <strong>Quit NextUp</strong>. Settings are also
+    reachable from the gear button in the popover header, or with <kbd>&#8984;,</kbd>, and are
+    organised into General, Menu Bar, Calendar, Events, Reminders, Time Zones, License, and About.
+  </p>
+
+  <h2>Permissions</h2>
+
+  <h3>NextUp isn't showing any of my events</h3>
+  <p>
+    NextUp needs Calendar access to read your schedule. macOS asks the first time you launch it; if
+    that prompt was declined, grant it in <strong>System Settings &rarr; Privacy &amp; Security
+    &rarr; Calendars</strong> and switch NextUp on. If events still don't appear, check
+    <strong>Settings &rarr; Calendar &rarr; Calendars to Show</strong> — individual calendars can be
+    hidden there.
+  </p>
+
+  <h3>Why don't I see my reminders?</h3>
+  <p>
+    Reminders are off by default, deliberately: NextUp doesn't ask for Reminders access unless you
+    want the feature. Turn on <strong>Settings &rarr; Reminders &rarr; Show Reminders in Your
+    Agenda</strong> and macOS will ask for permission then. If you see the message
+    <em>“NextUp doesn't have access to your reminders. Grant access in System Settings &rarr;
+    Privacy &amp; Security &rarr; Reminders,”</em> access was previously declined and needs to be
+    granted there.
+  </p>
+
+  <h3>Why does NextUp want my Contacts?</h3>
+  <p>
+    Only to suggest addresses while you type a location into an event. It's optional — decline it and
+    everything else works, you just won't get contact-based address suggestions. Nothing from your
+    contacts is stored or sent to us; see the <a href="privacy.html">privacy policy</a>.
+  </p>
+
+  <h2>Events and reminders</h2>
+
+  <h3>Where did part of my event title go?</h3>
+  <p>
+    That's quick entry doing its job. When you type something like <em>“Dentist friday 3pm”</em>,
+    NextUp reads the date and time, applies them, and removes those words from the title — so you get
+    an event called “Dentist”. Anything it didn't use stays in the title, and if you override a field
+    by hand, the words for that field are left alone. Check the hint row under the title field to see
+    what it understood before you save.
+  </p>
+
+  <h3>How do I type a time?</h3>
+  <p>
+    The time fields accept <code>3</code>, <code>3p</code>, <code>3:30 pm</code>, <code>1530</code>,
+    and <code>930</code>. Four digits are always read as 24-hour time. <kbd>&#8593;</kbd> and
+    <kbd>&#8595;</kbd> step by 15 minutes. If what you type isn't a time, the field quietly reverts
+    when you click away.
+  </p>
+
+  <h3>Editing a repeating event</h3>
+  <p>
+    NextUp asks whether to apply the change to <strong>This Event Only</strong> or <strong>All Future
+    Events</strong>, the same choice Calendar offers.
+  </p>
+
+  <h3>My video call has no Join button</h3>
+  <p>
+    NextUp looks for a meeting link in the event's URL field, its location, and its notes. It knows
+    Zoom, Google Meet, Microsoft Teams, Webex, Amazon Chime, GoToMeeting, BlueJeans, Skype,
+    RingCentral, Zoho Meeting, Adobe Connect, Jitsi Meet, Whereby, and FaceTime. For anything else,
+    add it under <strong>Settings &rarr; General &rarr; Add Custom Service…</strong> with a name and a
+    domain. Also check that <strong>Show join video call button</strong> is on in the Events tab.
+  </p>
+
+  <h2>The window and the menu bar</h2>
+
+  <h3>The window is too tall, or too short</h3>
+  <p>
+    Drag the thumb at the very bottom of the popover to resize the agenda, or set a fixed
+    <strong>Window Height</strong> in <strong>Settings &rarr; General &rarr; Layout</strong>. You can
+    also collapse the calendar with <kbd>&#8984;C</kbd> or hide the time zone strip with
+    <kbd>&#8984;Z</kbd>.
+  </p>
+
+  <h3>The window closes when I click somewhere else</h3>
+  <p>
+    That's the default. Turn on <strong>Keep Calendar On Top</strong> in Settings &rarr; General to
+    make it stay open while you work elsewhere.
+  </p>
+
+  <h3>Changing what the menu bar shows</h3>
+  <p>
+    <strong>Settings &rarr; Menu Bar</strong> controls all of it: icon only, date, time, or a
+    combination; which glyph the icon uses; the date format; 24-hour time and seconds; and whether to
+    add a second menu bar item showing your next event.
+  </p>
+
+  <h2>Purchases</h2>
+
+  <h3>What happens when the trial ends?</h3>
+  <p>
+    The 7-day trial unlocks everything. After it expires, <strong>viewing</strong> stays free — your
+    agenda, the month calendar, search, and time zones all keep working. Creating events and
+    reminders, editing them, joining calls from NextUp, and meeting alerts require the one-time
+    $4.99 purchase.
+  </p>
+
+  <h3>I already bought NextUp, but a new Mac says trial</h3>
+  <p>
+    Open <strong>Settings &rarr; License</strong> and choose <strong>Restore Purchases</strong>, while
+    signed in to the same Apple Account you bought it with. If you see “No previous purchase found,”
+    check which account is signed in to the App Store.
+  </p>
+
+  <h3>Refunds</h3>
+  <p>
+    Purchases go through Apple, so refunds do too — use Apple's App Store refund process at
+    reportaproblem.apple.com. We aren't able to issue refunds directly. See the
+    <a href="terms.html">terms</a>.
+  </p>
+
+  <h2>Removing NextUp</h2>
+  <p>
+    Quit NextUp from its menu bar icon and drag it to the Trash. NextUp stores nothing but your own
+    preferences, locally on your Mac; deleting the app and its data removes them. Your calendars and
+    reminders are untouched — they belong to macOS, not to NextUp.
+  </p>
+
+  <h2>Still stuck?</h2>
+  <p>
+    Write to
+    <a href="mailto:NextUpMenuBarCalendar@gmail.com?subject=NextUp%20support">NextUpMenuBarCalendar@gmail.com</a>.
+    Real replies, from the person who makes it.
+  </p>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span>&copy; 2026 NextUp</span>
+    <span class="spacer"></span>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:NextUpMenuBarCalendar@gmail.com">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>

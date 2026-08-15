@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NextUp — Menu Bar Calendar &amp; Reminders for Mac</title>
+<meta name="description" content="NextUp puts your calendar and reminders one click away in your Mac's menu bar. A live countdown to your next meeting, one-click join, and natural-language quick entry.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="nav-brand" href="index.html">
+      <img src="assets/icon.svg" alt="">
+      NextUp
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============================= HERO ============================= -->
+  <div class="hero">
+    <div class="wrap">
+      <img class="hero-icon" src="assets/icon.svg" alt="The NextUp app icon">
+      <h1>NextUp</h1>
+      <p class="tagline">Your calendar and reminders, one click away.</p>
+      <p class="lede">
+        NextUp lives in your Mac's menu bar. Click it to see what's next — today's events and
+        reminders together, with a live countdown to your next meeting. No separate app to open,
+        no tabs to dig through.
+      </p>
+
+      <div class="cta-row">
+        <!-- TODO: replace href="#" with the Mac App Store URL once the app is published. -->
+        <a class="btn" href="#" aria-label="Download NextUp on the Mac App Store">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.05 12.54c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.77 2.29-1.61 2.79-.41 6.92 1.15 9.19.76 1.11 1.67 2.35 2.86 2.31 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.78.74 2.99.72 1.24-.02 2.02-1.13 2.78-2.24.87-1.29 1.23-2.54 1.25-2.6-.03-.01-2.39-.92-2.41-3.64zM14.79 5.6c.63-.77 1.06-1.83.94-2.9-.91.04-2.02.61-2.67 1.37-.58.68-1.09 1.77-.95 2.81 1.02.08 2.05-.52 2.68-1.28z"/>
+          </svg>
+          Download on the Mac App Store
+        </a>
+      </div>
+
+      <p class="buy-line"><strong>7-day free trial</strong> &middot; then $4.99 once &middot; No subscription, ever</p>
+      <p class="req-line">Requires macOS 26 or later &middot; Version 0.8</p>
+    </div>
+
+    <div class="hero-shot">
+      <div class="plinth">
+        <img src="assets/hero-popover.svg" alt="The NextUp popover, showing the date, a month calendar for August 2026, and today's agenda">
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================= FEATURES ============================= -->
+  <section id="features" class="band">
+    <div class="wrap">
+
+      <div class="feature">
+        <div class="feature-copy">
+          <p class="eyebrow">Always in reach</p>
+          <h3>One click from anywhere</h3>
+          <p>
+            NextUp sits in the menu bar showing today's date — or the time, or just an icon,
+            whichever you prefer. Click it and your day appears.
+          </p>
+          <p>
+            Turn on the optional second menu bar item and your next event stays visible all day,
+            counting down. Click it to join the call without opening anything else.
+          </p>
+        </div>
+        <div class="feature-art">
+          <img src="assets/menubar.svg" alt="The macOS menu bar with the NextUp date item and a second item reading “Standup in 45m”">
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-copy">
+          <p class="eyebrow">Calendar + Reminders</p>
+          <h3>Your whole day, in one list</h3>
+          <p>
+            NextUp merges Apple Calendar and Apple Reminders into a single agenda, so you stop
+            switching apps to see what you actually have to do.
+          </p>
+          <p>
+            Check reminders off right from the list. Overdue items rise to the top of Today,
+            undated ones sink to the bottom, and a “now” line marks where you are in the day. The
+            meeting you're in gets a coloured ring, a <strong>Join</strong> button, and how long is left.
+          </p>
+        </div>
+        <div class="feature-art">
+          <img src="assets/agenda-row.svg" alt="An agenda showing an overdue reminder, a completed reminder, a meeting in progress with a Join button, and an upcoming event">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-copy">
+          <p class="eyebrow">Quick entry</p>
+          <h3>Type it the way you'd say it</h3>
+          <p>
+            Type <em>“Lunch with Sam tomorrow 1pm at Cafe Rio”</em> and NextUp fills in the date,
+            the time, and the location — then saves the event as just <strong>“Lunch with Sam”</strong>.
+            The words it understood are stripped from the title; anything you correct by hand stays put.
+          </p>
+          <div class="table-scroll">
+            <table>
+              <tbody>
+                <tr><td><code>friday 3-4pm</code></td><td>Start and end time</td></tr>
+                <tr><td><code>for 90 min</code></td><td>Duration</td></tr>
+                <tr><td><code>every other monday</code></td><td>Repeat, every 2 weeks</td></tr>
+                <tr><td><code>every mon&#8211;fri</code></td><td>Repeat on weekdays</td></tr>
+                <tr><td><code>all day</code></td><td>All-day event</td></tr>
+                <tr><td><code>@</code></td><td>Search addresses and places as you type</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="feature-art">
+          <img src="assets/quick-entry.svg" alt="The event editor with a sentence typed in, the date, time and place NextUp read out of it shown underneath, and the fields below filled in automatically">
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-copy">
+          <p class="eyebrow">Meetings</p>
+          <h3>Never miss the start</h3>
+          <p>
+            A banner slides in before your meeting — five minutes ahead by default, or whenever you
+            like. Join in one click, snooze it for 5, 15 or 30 minutes, or jump to the event in
+            Calendar. For the meetings you really can't miss, switch on the full-screen alert.
+          </p>
+          <p>
+            NextUp finds the call link in the event's URL, location or notes, and knows these
+            services out of the box. Add your own with a name and a domain.
+          </p>
+          <div class="chip-row">
+            <span class="chip">Zoom</span><span class="chip">Google Meet</span>
+            <span class="chip">Microsoft Teams</span><span class="chip">Webex</span>
+            <span class="chip">Amazon Chime</span><span class="chip">GoToMeeting</span>
+            <span class="chip">BlueJeans</span><span class="chip">Skype</span>
+            <span class="chip">RingCentral</span><span class="chip">Zoho Meeting</span>
+            <span class="chip">Adobe Connect</span><span class="chip">Jitsi Meet</span>
+            <span class="chip">Whereby</span><span class="chip">FaceTime</span>
+          </div>
+        </div>
+        <div class="feature-art">
+          <img src="assets/alert-banner.svg" alt="A meeting alert banner reading “Design review — starts in 5 minutes”, with Join Video Call, Snooze and Open in Calendar buttons">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-copy">
+          <p class="eyebrow">The month view</p>
+          <h3>A month at a glance</h3>
+          <p>
+            Dots under each date show what's booked — one plain dot, or up to three in your
+            calendars' own colours. Pick any day to see its agenda.
+          </p>
+          <p>
+            Add week numbers, highlight the current week, dim the weekend, or put a permanent stripe
+            behind the weekdays that matter to you. Swipe two fingers to change months if you like.
+          </p>
+        </div>
+        <div class="feature-art">
+          <img src="assets/calendar-grid.svg" alt="A month grid for August 2026 with week numbers, a highlighted current week, and coloured event dots">
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-copy">
+          <p class="eyebrow">Search</p>
+          <h3>Find that meeting</h3>
+          <p>
+            Press <kbd>&#8984;F</kbd> and type. NextUp searches titles, locations, notes and
+            calendar names, and groups what it finds under Today, Tomorrow, Next Week, by month,
+            and Past.
+          </p>
+          <p>
+            Repeating events collapse to the last one and the next one, so a weekly standup doesn't
+            bury everything else. Arrow keys move, Return opens, Esc closes.
+          </p>
+        </div>
+        <div class="feature-art">
+          <img src="assets/search.svg" alt="The search panel with results grouped under Today, Next Week and August 2026">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-copy">
+          <p class="eyebrow">Time zones</p>
+          <h3>Know what time it is there</h3>
+          <p>
+            Track as many time zones as you need in a strip at the bottom of the window, with the
+            local time, the UTC offset, and whether it's already tomorrow.
+          </p>
+          <p>
+            Choose from around 600 zones and give each one whatever name you actually call it.
+            Toggle the whole strip with <kbd>&#8984;Z</kbd>.
+          </p>
+        </div>
+        <div class="feature-art">
+          <img src="assets/timezones.svg" alt="A time zone strip listing Cupertino, New York, London and Tokyo with their local times and offsets">
+        </div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-copy">
+          <p class="eyebrow">Make it yours</p>
+          <h3>Made to match your Mac</h3>
+          <p>
+            Six themes, each with a full light and dark palette, plus Light, Dark or System
+            appearance. Set the font size, the row density, and how tall the window is — or just
+            drag its bottom edge.
+          </p>
+          <p>
+            Choose which calendars and reminder lists appear, which get alerts, and what the menu
+            bar shows.
+          </p>
+        </div>
+        <div class="feature-art">
+          <img src="assets/themes.svg" alt="Colour swatches for the Plain, Ocean, Forest, Sunset, Lavender and Slate themes">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================= AND MORE ============================= -->
+  <section>
+    <div class="wrap">
+      <h2 class="center">And a few more things</h2>
+      <p class="lede center">Small conveniences that add up.</p>
+      <div class="grid">
+        <div>
+          <h4>Launch at login</h4>
+          <p>NextUp is there from the moment you sit down, with no Dock icon unless you want one.</p>
+        </div>
+        <div>
+          <h4>Keep it on top</h4>
+          <p>Pin the window so it stays open while you work in another app.</p>
+        </div>
+        <div>
+          <h4>Global shortcuts</h4>
+          <p>Open NextUp, or join your next meeting, from anywhere on your Mac.</p>
+        </div>
+        <div>
+          <h4>Drag to resize</h4>
+          <p>Grab the bottom edge and make the agenda exactly as tall as your day.</p>
+        </div>
+        <div>
+          <h4>Multi-day events</h4>
+          <p>Trips and conferences appear on every day they span, labelled <em>Continues</em> or <em>Ends today</em>.</p>
+        </div>
+        <div>
+          <h4>Priorities and alerts</h4>
+          <p>Set repeat rules, multiple alerts, priorities and due dates without leaving the popover.</p>
+        </div>
+        <div>
+          <h4>Attachments and links</h4>
+          <p>Open an event's attachments, Quick Look them, or copy the meeting link straight from the detail panel.</p>
+        </div>
+        <div>
+          <h4>Opens the real apps</h4>
+          <p>One click takes any event to Calendar, or any reminder to Reminders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= SHORTCUTS ============================= -->
+  <section class="band">
+    <div class="wrap">
+      <h2 class="center">Keyboard first</h2>
+      <p class="lede center">These work whenever the NextUp window is open.</p>
+      <div class="table-scroll shortcuts">
+        <table>
+          <tbody>
+            <tr><td>New Event</td><td><kbd>&#8984;N</kbd></td></tr>
+            <tr><td>Search Events</td><td><kbd>&#8984;F</kbd></td></tr>
+            <tr><td>Go to Today</td><td><kbd>&#8984;T</kbd></td></tr>
+            <tr><td>Toggle Time Zones</td><td><kbd>&#8984;Z</kbd></td></tr>
+            <tr><td>Previous / Next Day</td><td><kbd>&#8592;</kbd> <kbd>&#8594;</kbd></td></tr>
+            <tr><td>Previous / Next Week</td><td><kbd>&#8593;</kbd> <kbd>&#8595;</kbd></td></tr>
+            <tr><td>Previous / Next Month</td><td><kbd>&#8984;&#8592;</kbd> <kbd>&#8984;&#8594;</kbd></td></tr>
+            <tr><td>Settings</td><td><kbd>&#8984;,</kbd></td></tr>
+            <tr><td>Close Window</td><td><kbd>esc</kbd></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= PRIVACY ============================= -->
+  <section>
+    <div class="wrap center">
+      <p class="eyebrow">Private by design</p>
+      <h2>Nothing to sign up for</h2>
+      <p class="lede">
+        No account, no sign-in, and no servers of ours. Your calendars, reminders and contacts are
+        read on your Mac through Apple's own frameworks, and nothing is ever sent to us. No ads, no
+        analytics, no tracking SDKs.
+      </p>
+      <p class="lede">
+        <a href="privacy.html">Read the privacy policy</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================= PRICING ============================= -->
+  <section id="pricing" class="band">
+    <div class="wrap center">
+      <h2>Try it for a week</h2>
+      <p class="lede">Every feature is unlocked during the trial. No card, no account.</p>
+
+      <div class="price-card">
+        <p class="eyebrow">NextUp Full Access</p>
+        <p class="price">$4.99</p>
+        <p class="price-note">One-time purchase &middot; after a 7-day free trial</p>
+
+        <ul class="price-list">
+          <li><strong>Create events and reminders</strong> without leaving the menu bar</li>
+          <li><strong>Edit them in place</strong> — times, repeats, alerts, locations</li>
+          <li><strong>Meeting alerts</strong> before things start, with one-click join</li>
+          <li><strong>Free updates</strong> — yours forever, no subscription</li>
+        </ul>
+
+        <!-- TODO: replace href="#" with the Mac App Store URL once the app is published. -->
+        <a class="btn" href="#">Download on the Mac App Store</a>
+        <p class="price-note" style="margin-top:18px">
+          Viewing your agenda, calendar, search and time zones stays free after the trial.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <span>&copy; 2026 NextUp</span>
+    <span class="spacer"></span>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:NextUpMenuBarCalendar@gmail.com">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>

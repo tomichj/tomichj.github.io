@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="nextup-icon-title">
+  <title id="nextup-icon-title">NextUp app icon — a calendar page with a next arrow</title>
+
+  <!-- Background: Display-P3 0.34246 0.26001 0.73707 from AppIcon.icon/icon.json -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6A53DC"/>
+      <stop offset="1" stop-color="#4E38B4"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="229" ry="229" fill="url(#bg)"/>
+
+  <g fill="none" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <!-- binder rings -->
+    <path d="M348 232 V304"/>
+    <path d="M568 232 V304"/>
+    <!-- calendar body -->
+    <rect x="232" y="272" width="470" height="436" rx="58" ry="58"/>
+    <!-- header rule -->
+    <path d="M232 386 H702"/>
+  </g>
+
+  <!-- three list lines: dot + capsule -->
+  <g fill="#FFFFFF">
+    <circle cx="304" cy="456" r="16"/>
+    <circle cx="304" cy="538" r="16"/>
+    <circle cx="304" cy="620" r="16"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round">
+    <path d="M362 456 H636"/>
+    <path d="M362 538 H636"/>
+    <path d="M362 620 H592"/>
+  </g>
+
+  <!-- "next" badge, knocked out of the calendar with a stroke-width gap -->
+  <circle cx="706" cy="702" r="154" fill="#5B45C8"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="706" cy="702" r="124"/>
+    <path d="M648 702 H752"/>
+    <path d="M714 664 L752 702 L714 740"/>
+  </g>
+</svg>

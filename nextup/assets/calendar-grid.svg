@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 318" width="300" height="318" role="img" aria-labelledby="cg-title cg-desc">
+  <title id="cg-title">The month calendar</title>
+  <desc id="cg-desc">A month grid for August 2026 with week numbers down the left, the current week highlighted, coloured event dots under each date, and today shown in a filled accent circle.</desc>
+
+  <defs>
+    <style>
+      .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .pri { fill: #2B2B2D; }
+      .ter { fill: #C2C5C9; }
+      .quad { fill: #D2D5D9; }
+    </style>
+    <clipPath id="cgclip"><rect x="0" y="0" width="300" height="318" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cgclip)">
+    <rect width="300" height="318" fill="#FFFFFF"/>
+
+    <!-- section rules, as they sit in the popover -->
+    <rect x="0" y="5" width="300" height="1" fill="#E6E6E6"/>
+    <rect x="0" y="313" width="300" height="1" fill="#E6E6E6"/>
+
+    <!-- month title and month arrows -->
+    <text class="f pri" x="12.5" y="31.7" font-size="18" font-weight="600" letter-spacing="-0.2">August 2026</text>
+    <g stroke="#6E7176" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M246.5 21L240.5 27L246.5 33"/>
+      <path d="M273.5 21L279.5 27L273.5 33"/>
+    </g>
+
+    <!-- weekday initials -->
+    <g class="f ter" font-size="10" font-weight="500" text-anchor="middle">
+      <text x="48.5" y="61">S</text>
+      <text x="85.6" y="61">M</text>
+      <text x="122.7" y="61">T</text>
+      <text x="159.8" y="61">W</text>
+      <text x="196.9" y="61">T</text>
+      <text x="234" y="61">F</text>
+      <text x="271.1" y="61">S</text>
+    </g>
+
+    <!-- current-week highlight capsule -->
+    <rect x="32" y="142.25" width="255.5" height="31.5" rx="15.75" fill="#2B2B2D" fill-opacity="0.075"/>
+
+    <!-- week numbers -->
+    <g class="f quad" font-size="9" text-anchor="middle">
+      <text x="21.5" y="86.4">31</text>
+      <text x="21.5" y="125.4">32</text>
+      <text x="21.5" y="164.4">33</text>
+      <text x="21.5" y="203.4">34</text>
+      <text x="21.5" y="242.4">35</text>
+      <text x="21.5" y="281.4">36</text>
+    </g>
+
+    <!-- the day the pointer is over -->
+    <circle cx="159.8" cy="119" r="13.75" fill="#2B2B2D" fill-opacity="0.125"/>
+
+    <!-- today -->
+    <circle cx="85.6" cy="158" r="13.75" fill="#268BD2"/>
+
+    <!-- day numerals -->
+    <g class="f" font-size="15" text-anchor="middle">
+      <!-- week 1: Jul 26-31, Aug 1 -->
+      <g fill="#C2C5C9">
+        <text x="48.5" y="86.4">26</text><text x="85.6" y="86.4">27</text><text x="122.7" y="86.4">28</text>
+        <text x="159.8" y="86.4">29</text><text x="196.9" y="86.4">30</text><text x="234" y="86.4">31</text>
+      </g>
+      <text x="271.1" y="86.4" fill="#2B2B2D">1</text>
+      <!-- week 2 -->
+      <g fill="#2B2B2D">
+        <text x="48.5" y="125.4">2</text><text x="85.6" y="125.4">3</text><text x="122.7" y="125.4">4</text>
+        <text x="159.8" y="125.4">5</text><text x="196.9" y="125.4">6</text><text x="234" y="125.4">7</text>
+        <text x="271.1" y="125.4">8</text>
+      </g>
+      <!-- week 3 — the current week -->
+      <g fill="#2B2B2D">
+        <text x="48.5" y="164.4">9</text>
+        <text x="85.6" y="164.4" fill="#FFFFFF" font-weight="600">10</text>
+        <text x="122.7" y="164.4">11</text><text x="159.8" y="164.4">12</text><text x="196.9" y="164.4">13</text>
+        <text x="234" y="164.4">14</text><text x="271.1" y="164.4">15</text>
+      </g>
+      <!-- week 4 -->
+      <g fill="#2B2B2D">
+        <text x="48.5" y="203.4">16</text><text x="85.6" y="203.4">17</text><text x="122.7" y="203.4">18</text>
+        <text x="159.8" y="203.4">19</text><text x="196.9" y="203.4">20</text><text x="234" y="203.4">21</text>
+        <text x="271.1" y="203.4">22</text>
+      </g>
+      <!-- week 5 -->
+      <g fill="#2B2B2D">
+        <text x="48.5" y="242.4">23</text><text x="85.6" y="242.4">24</text><text x="122.7" y="242.4">25</text>
+        <text x="159.8" y="242.4">26</text><text x="196.9" y="242.4">27</text><text x="234" y="242.4">28</text>
+        <text x="271.1" y="242.4">29</text>
+      </g>
+      <!-- week 6: Aug 30-31, Sep 1-5 -->
+      <g fill="#2B2B2D">
+        <text x="48.5" y="281.4">30</text><text x="85.6" y="281.4">31</text>
+      </g>
+      <g fill="#C2C5C9">
+        <text x="122.7" y="281.4">1</text><text x="159.8" y="281.4">2</text><text x="196.9" y="281.4">3</text>
+        <text x="234" y="281.4">4</text><text x="271.1" y="281.4">5</text>
+      </g>
+    </g>
+
+    <!-- event dots, in each calendar's own colour -->
+    <g>
+      <circle cx="48.5" cy="97" r="1.75" fill="#FF9500"/>
+      <circle cx="271.1" cy="97" r="1.75" fill="#1BADF8"/>
+
+      <circle cx="79.6" cy="175" r="1.75" fill="#FF9500"/>
+      <circle cx="85.6" cy="175" r="1.75" fill="#FF9500"/>
+      <circle cx="91.6" cy="175" r="1.75" fill="#FF9500"/>
+      <circle cx="122.7" cy="175" r="1.75" fill="#1BADF8"/>
+      <circle cx="271.1" cy="175" r="1.75" fill="#1BADF8"/>
+
+      <circle cx="122.7" cy="253" r="1.75" fill="#1BADF8"/>
+
+      <circle cx="159.8" cy="292" r="1.75" fill="#1BADF8"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="299" height="317" rx="11.5" fill="none" stroke="#E1E3E7"/>
+</svg>

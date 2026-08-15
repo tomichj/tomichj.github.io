@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-labelledby="se-title se-desc">
+  <title id="se-title">Searching events</title>
+  <desc id="se-desc">The search panel with the query "review" typed in, and matching events grouped under TODAY, NEXT WEEK and AUGUST 2026 headings.</desc>
+
+  <defs>
+    <style>
+      .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .pri { fill: #2B2B2D; }
+      .sec { fill: #6E7176; }
+      .ter { fill: #A0A3A8; }
+    </style>
+    <clipPath id="seclip"><rect x="0" y="0" width="400" height="300" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#seclip)">
+    <rect width="400" height="300" fill="#FCFCFD"/>
+
+    <!-- search field -->
+    <rect x="14" y="14" width="340" height="30" rx="8" fill="#2B2B2D" fill-opacity="0.06"/>
+    <g transform="translate(26,22)" fill="none" stroke="#6E7176" stroke-linecap="round">
+      <circle cx="5.2" cy="5.2" r="4" stroke-width="1.5"/>
+      <path d="M8.3 8.3L11.6 11.6" stroke-width="1.7"/>
+    </g>
+    <text class="f pri" x="48" y="34" font-size="13">review</text>
+    <circle cx="340" cy="29" r="7" fill="#2B2B2D" fill-opacity="0.18"/>
+    <path d="M337 26L343 32M343 26L337 32" stroke="#FCFCFD" stroke-width="1.4" stroke-linecap="round"/>
+    <g stroke="#6E7176" stroke-width="1.5" stroke-linecap="round">
+      <path d="M372 23L384 35M384 23L372 35"/>
+    </g>
+
+    <path d="M0 56H400" stroke="#E4E6EA" stroke-width="1"/>
+
+    <!-- TODAY -->
+    <text class="f" x="20" y="78" font-size="10" font-weight="600" letter-spacing="1.2" fill="#268BD2">TODAY</text>
+    <rect x="10" y="88" width="380" height="38" rx="7" fill="#268BD2" fill-opacity="0.12"/>
+    <rect x="18" y="95" width="3" height="24" rx="1.5" fill="#1BADF8"/>
+    <text class="m sec" x="30" y="104" font-size="9" font-weight="500">10-11am</text>
+    <text class="f pri" x="30" y="119" font-size="12" font-weight="500">Design review</text>
+    <text class="f ter" x="382" y="112" font-size="10" text-anchor="end">Work</text>
+
+    <!-- NEXT WEEK -->
+    <text class="f sec" x="20" y="150" font-size="10" font-weight="600" letter-spacing="1.2">NEXT WEEK</text>
+    <rect x="18" y="160" width="3" height="24" rx="1.5" fill="#34C759"/>
+    <text class="m sec" x="30" y="169" font-size="9" font-weight="500">9-10am</text>
+    <text class="f pri" x="30" y="184" font-size="12" font-weight="500">Quarterly review</text>
+    <text class="f ter" x="382" y="177" font-size="10" text-anchor="end">Work</text>
+
+    <rect x="18" y="194" width="3" height="24" rx="1.5" fill="#CC73E1"/>
+    <text class="m sec" x="30" y="203" font-size="9" font-weight="500">4-5pm</text>
+    <text class="f pri" x="30" y="218" font-size="12" font-weight="500">Review Dana&#8217;s draft</text>
+    <text class="f ter" x="382" y="211" font-size="10" text-anchor="end">Personal</text>
+
+    <!-- AUGUST 2026 -->
+    <text class="f sec" x="20" y="249" font-size="10" font-weight="600" letter-spacing="1.2">AUGUST 2026</text>
+    <rect x="18" y="259" width="3" height="24" rx="1.5" fill="#FF9500"/>
+    <text class="m sec" x="30" y="268" font-size="9" font-weight="500">1-2pm</text>
+    <text class="f pri" x="30" y="283" font-size="12" font-weight="500">Budget review</text>
+    <text class="f ter" x="382" y="276" font-size="10" text-anchor="end">Work</text>
+  </g>
+  <rect x="0.5" y="0.5" width="399" height="299" rx="11.5" fill="none" stroke="#E1E3E7"/>
+</svg>

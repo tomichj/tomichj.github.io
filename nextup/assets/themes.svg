@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 214" width="480" height="214" role="img" aria-labelledby="th-title th-desc">
+  <title id="th-title">The six NextUp themes</title>
+  <desc id="th-desc">Colour swatches for the Plain, Ocean, Forest, Sunset, Lavender and Slate themes, each showing its background, panel and accent colours.</desc>
+
+  <defs>
+    <style>
+      .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .lbl { font-size: 12px; font-weight: 500; fill: #2B2B2D; }
+    </style>
+  </defs>
+
+  <!-- Plain -->
+  <g transform="translate(10,10)">
+    <rect width="140" height="72" rx="12" fill="#FFFFFF" stroke="#E1E3E7"/>
+    <circle cx="26" cy="24" r="9" fill="#268BD2"/>
+    <rect x="44" y="17" width="72" height="5" rx="2.5" fill="#2B2B2D" fill-opacity="0.72"/>
+    <rect x="44" y="28" width="50" height="5" rx="2.5" fill="#2B2B2D" fill-opacity="0.34"/>
+    <rect x="12" y="46" width="116" height="14" rx="7" fill="#F0F0F2"/>
+    <rect x="20" y="51" width="44" height="4" rx="2" fill="#2B2B2D" fill-opacity="0.34"/>
+    <rect x="96" y="51" width="24" height="4" rx="2" fill="#268BD2"/>
+    <text class="f lbl" x="70" y="90" text-anchor="middle">Plain</text>
+  </g>
+
+  <!-- Ocean -->
+  <g transform="translate(170,10)">
+    <rect width="140" height="72" rx="12" fill="#EAF4FB" stroke="#D3E4F0"/>
+    <circle cx="26" cy="24" r="9" fill="#0A6FB0"/>
+    <rect x="44" y="17" width="72" height="5" rx="2.5" fill="#12384F" fill-opacity="0.78"/>
+    <rect x="44" y="28" width="50" height="5" rx="2.5" fill="#12384F" fill-opacity="0.36"/>
+    <rect x="12" y="46" width="116" height="14" rx="7" fill="#D6EAF6"/>
+    <rect x="20" y="51" width="44" height="4" rx="2" fill="#12384F" fill-opacity="0.36"/>
+    <rect x="96" y="51" width="24" height="4" rx="2" fill="#0A6FB0"/>
+    <text class="f lbl" x="70" y="90" text-anchor="middle">Ocean</text>
+  </g>
+
+  <!-- Forest -->
+  <g transform="translate(330,10)">
+    <rect width="140" height="72" rx="12" fill="#EDF5EC" stroke="#D6E6D3"/>
+    <circle cx="26" cy="24" r="9" fill="#1E7A3C"/>
+    <rect x="44" y="17" width="72" height="5" rx="2.5" fill="#173D24" fill-opacity="0.78"/>
+    <rect x="44" y="28" width="50" height="5" rx="2.5" fill="#173D24" fill-opacity="0.36"/>
+    <rect x="12" y="46" width="116" height="14" rx="7" fill="#DCEBD8"/>
+    <rect x="20" y="51" width="44" height="4" rx="2" fill="#173D24" fill-opacity="0.36"/>
+    <rect x="96" y="51" width="24" height="4" rx="2" fill="#1E7A3C"/>
+    <text class="f lbl" x="70" y="90" text-anchor="middle">Forest</text>
+  </g>
+
+  <!-- Sunset -->
+  <g transform="translate(10,112)">
+    <rect width="140" height="72" rx="12" fill="#FFF2E9" stroke="#F3DDCC"/>
+    <circle cx="26" cy="24" r="9" fill="#E0682A"/>
+    <rect x="44" y="17" width="72" height="5" rx="2.5" fill="#4A2416" fill-opacity="0.78"/>
+    <rect x="44" y="28" width="50" height="5" rx="2.5" fill="#4A2416" fill-opacity="0.36"/>
+    <rect x="12" y="46" width="116" height="14" rx="7" fill="#FBE2D2"/>
+    <rect x="20" y="51" width="44" height="4" rx="2" fill="#4A2416" fill-opacity="0.36"/>
+    <rect x="96" y="51" width="24" height="4" rx="2" fill="#E0682A"/>
+    <text class="f lbl" x="70" y="90" text-anchor="middle">Sunset</text>
+  </g>
+
+  <!-- Lavender -->
+  <g transform="translate(170,112)">
+    <rect width="140" height="72" rx="12" fill="#F3EFFA" stroke="#E0D7F0"/>
+    <circle cx="26" cy="24" r="9" fill="#7C4DD6"/>
+    <rect x="44" y="17" width="72" height="5" rx="2.5" fill="#2E2450" fill-opacity="0.78"/>
+    <rect x="44" y="28" width="50" height="5" rx="2.5" fill="#2E2450" fill-opacity="0.36"/>
+    <rect x="12" y="46" width="116" height="14" rx="7" fill="#E6DCF6"/>
+    <rect x="20" y="51" width="44" height="4" rx="2" fill="#2E2450" fill-opacity="0.36"/>
+    <rect x="96" y="51" width="24" height="4" rx="2" fill="#7C4DD6"/>
+    <text class="f lbl" x="70" y="90" text-anchor="middle">Lavender</text>
+  </g>
+
+  <!-- Slate -->
+  <g transform="translate(330,112)">
+    <rect width="140" height="72" rx="12" fill="#EEF1F4" stroke="#DBE0E6"/>
+    <circle cx="26" cy="24" r="9" fill="#4A6070"/>
+    <rect x="44" y="17" width="72" height="5" rx="2.5" fill="#25313A" fill-opacity="0.78"/>
+    <rect x="44" y="28" width="50" height="5" rx="2.5" fill="#25313A" fill-opacity="0.36"/>
+    <rect x="12" y="46" width="116" height="14" rx="7" fill="#DEE4EA"/>
+    <rect x="20" y="51" width="44" height="4" rx="2" fill="#25313A" fill-opacity="0.36"/>
+    <rect x="96" y="51" width="24" height="4" rx="2" fill="#4A6070"/>
+    <text class="f lbl" x="70" y="90" text-anchor="middle">Slate</text>
+  </g>
+</svg>

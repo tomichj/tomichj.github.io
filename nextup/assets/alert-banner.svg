@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 160" width="460" height="160" role="img" aria-labelledby="al-title al-desc">
+  <title id="al-title">A meeting alert</title>
+  <desc id="al-desc">A banner alert reading "Design review — starts in 5 minutes", with a Join Video Call button, a snooze menu and an Open in Calendar button.</desc>
+
+  <defs>
+    <style>
+      .f { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .pri { fill: #2B2B2D; }
+      .sec { fill: #6E7176; }
+    </style>
+    <linearGradient id="albg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDF1F6"/>
+      <stop offset="1" stop-color="#E3E8F0"/>
+    </linearGradient>
+    <filter id="alshadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#1E2A38" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="460" height="160" rx="12" fill="url(#albg)"/>
+
+  <g filter="url(#alshadow)">
+    <rect x="20" y="14" width="420" height="132" rx="15" fill="#FFFFFF"/>
+  </g>
+
+  <!-- video badge -->
+  <circle cx="54" cy="50" r="18" fill="#268BD2" fill-opacity="0.14"/>
+  <g transform="translate(45,44)" fill="#268BD2">
+    <rect x="0" y="1.5" width="11.5" height="9.5" rx="2.4"/>
+    <path d="M13 4.4L17.6 1.6V10.9L13 8.1Z"/>
+  </g>
+
+  <text class="f pri" x="84" y="46" font-size="14.5" font-weight="600">Design review</text>
+  <text class="f sec" x="84" y="64" font-size="11.5">Starts in 5 minutes &#183; 10:00 &#8211; 11:00 AM</text>
+
+  <rect x="84" y="74" width="60" height="18" rx="9" fill="#2B2B2D" fill-opacity="0.07"/>
+  <circle cx="95" cy="83" r="4" fill="#1BADF8"/>
+  <text class="f sec" x="104" y="87" font-size="10.5">Work</text>
+
+  <!-- close -->
+  <g stroke="#A0A3A8" stroke-width="1.6" stroke-linecap="round">
+    <path d="M410 30L420 40M420 30L410 40"/>
+  </g>
+
+  <!-- actions -->
+  <rect x="36" y="104" width="122" height="28" rx="9" fill="#268BD2"/>
+  <g transform="translate(50,113)" fill="#FFFFFF">
+    <rect x="0" y="1" width="7.4" height="6.2" rx="1.6"/>
+    <path d="M8.4 3.4L11.4 1.6V7.6L8.4 5.8Z"/>
+  </g>
+  <text class="f" x="103" y="122.5" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Join Video Call</text>
+
+  <rect x="166" y="104" width="106" height="28" rx="9" fill="none" stroke="#DCDFE4"/>
+  <text class="f pri" x="178" y="122.5" font-size="11.5">Snooze 5 min</text>
+  <g stroke="#6E7176" fill="none" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M253 116L257 120L261 116"/>
+  </g>
+
+  <rect x="280" y="104" width="124" height="28" rx="9" fill="none" stroke="#DCDFE4"/>
+  <g transform="translate(293,112)" fill="none" stroke="#6E7176" stroke-width="1.2">
+    <rect x="0" y="1.4" width="11" height="10" rx="2.2"/>
+    <path d="M0 4.4H11"/>
+    <path d="M3 0V2.2M8 0V2.2" stroke-linecap="round"/>
+  </g>
+  <text class="f pri" x="310" y="122.5" font-size="11.5">Open in Calendar</text>
+</svg>
