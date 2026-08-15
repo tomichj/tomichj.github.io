@@ -2,5 +2,5 @@
 
 set -e
 
-export PATH=/usr/share/rbenv/shims:$PATH RBENV_VERSION=$(cat .ruby-version)
+export PATH="$(rbenv root)/shims:$PATH" RBENV_VERSION=$(cat .ruby-version)
 bundle exec jekyll build
